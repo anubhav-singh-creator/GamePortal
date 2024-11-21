@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Game Portal Content</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h2>Edit Game Portal Content</h2>
+        <nav>
+            <ul>
+                <li><a href="#slides-section">Slides</a></li>
+                <li><a href="#">Game Reviews</a></li>
+                <li><a href="#">News Updates</a></li>
+                <li><a href="#">Downloads</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slides-section">
+        <h3>Slides</h3>
+        <button id="add-slide">Add Slide</button>
+
+        <!-- Slide Input Form -->
+        <div id="slide-form" style="display: none;">
+            <label for="slide-image">Upload Image:</label>
+            <input type="file" id="slide-image">
+            <label for="slide-link">Link URL:</label>
+            <input type="text" id="slide-link" placeholder="Enter URL">
+            <button id="save-slide">Save Slide</button>
+        </div>
+
+        <div id="slides-preview">
+            <!-- Slide previews will be displayed here -->
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

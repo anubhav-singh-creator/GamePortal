@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <div id="logoc"> </div>
+
+    <!-- Header with Top Bar and Profile Link -->
+    <header>
+        <img id="logo" src="icons/Logo3.png" alt="">
+        <nav class="top-nav">
+            <ul>
+                
+                <li><a href="#">Game Reviews</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">News Updates</a></li>
+                <li><a href="#" id="profile-link">Guest</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- Carousel Section in HTML -->
+        <!-- Full-Width Carousel Section -->
+<section id="carousel">
+    <div id="carousel-background"></div>
+    <div id="carousel-container">
+        <img id="slide-image" src="" alt="Slide">
+    </div>
+</section>
+
+        <!-- Game Category Container -->
+    <section id="game-category-section">
+        <button id="scroll-left" class="scroll-btn">&lt;</button>
+        <div id="game-category-container">
+            <!-- Game categories will be dynamically populated here -->
+        </div>
+        <button id="scroll-right" class="scroll-btn">&gt;</button>
+    </section>
+
+
+
+    <footer style="position: absolute; bottom: 1px; left: 5px;">
+        <p style="margin-bottom: 1vh;">&copy; 2024 Game Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
